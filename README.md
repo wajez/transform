@@ -10,7 +10,7 @@ npm i wajez-transform --save
 
 # Usage
 
-```
+```js
 const transform = require('wajez-transform')
 
 const numbers = [1, -5, 2, 7, -1, 0, -4]
@@ -21,7 +21,7 @@ transform({
 }, numbers)
 //=> {
 //   positive: [1, 2, 7, 0],
-//   negative: [-5, -1, 0, -4]  
+//   negative: [-5, -1, 0, -4]
 // }
 
 const users = [{
@@ -40,9 +40,9 @@ const format = transform({
 
 users.map(format) //=> [
 // {
-//   name: 'Amine Ben hammou',   
-//   profession: 'Developer',   
-//   age: 27   
+//   name: 'Amine Ben hammou',
+//   profession: 'Developer',
+//   age: 27
 // }
 // , ...
 // ]
