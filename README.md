@@ -44,7 +44,7 @@ const format = transform({
     name: _ => _.firstName + ' ' + _.lastName, // apply a function to the object
     profession: 'job', // get the attribute `job`
     age: ['birthDay', _ => 2017 - _.getFullYear()], // apply function to attribute
-    github: 'accounts.github' // get an inner attribute
+    github: 'links.github' // get an inner attribute
 }) // a function which can be applied to transform mutiple objects
 
 users.map(format) //=> [
