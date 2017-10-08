@@ -1,6 +1,7 @@
 # Wajez Transform
 
 [![Build Status](https://travis-ci.org/wajez/transform.svg?branch=master)](https://travis-ci.org/wajez/transform)
+[![Coverage Status](https://coveralls.io/repos/github/wajez/transform/badge.svg)](https://coveralls.io/github/wajez/transform)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/wajez/transform/blob/master/LICENSE)
 
 Transforming data to object made easy.
